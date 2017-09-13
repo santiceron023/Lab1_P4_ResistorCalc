@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.udea.santiagoceron.lab1p4_v2.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_marginTop="18sp"
+        android:layout_weight="2"
+        android:background="@drawable/resistor2"
+        android:orientation="horizontal"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/tFirst"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_margin="2sp"
+            android:layout_weight="1"
+            android:orientation="horizontal" />
+
+        <LinearLayout
+            android:id="@+id/tSecond"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_margin="2sp"
+            android:layout_weight="1"
+            android:orientation="horizontal" />
+
+        <LinearLayout
+            android:id="@+id/tThird"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_margin="2sp"
+            android:layout_weight="1"
+            android:orientation="horizontal" />
+
+        <LinearLayout
+            android:id="@+id/tFour"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_margin="2sp"
+            android:layout_weight="1"
+            android:orientation="horizontal" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:text="@string/one"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"/>
+
+            <Spinner
+                android:id="@+id/sFirst"
+                android:layout_width="0sp"
+                android:layout_weight="4"
+                android:layout_height="match_parent"
+                android:textAlignment="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:text="@string/two"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"/>
+
+            <Spinner
+                android:id="@+id/sSecond"
+                android:layout_width="0sp"
+                android:layout_weight="4"
+                android:layout_height="match_parent"
+                android:textAlignment="center" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:text="@string/three"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"/>
+
+            <Spinner
+                android:id="@+id/sThird"
+                android:layout_width="0sp"
+                android:layout_weight="4"
+                android:layout_height="match_parent"
+                android:textAlignment="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:text="@string/four"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"/>
+
+            <Spinner
+                android:id="@+id/sFour"
+                android:layout_width="0sp"
+                android:layout_weight="4"
+                android:layout_height="match_parent"
+                android:textAlignment="center" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tDisplay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/res_hint"
+            android:textAlignment="center"
+            android:textColor="@color/red"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

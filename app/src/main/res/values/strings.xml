@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Resistor Value</string>
+    <string name="res_hint">Select Color Band</string>
+    <string name="one">1.</string>
+    <string name="two">2.</string>
+    <string name="four">4.</string>
+    <string name="three">3.</string>
+    <string-array name="band_4">
+        <item>Brown</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Violet</item>
+        <item>Gray</item>
+        <item>Gold</item>
+        <item>Silver</item>
+    </string-array>
+    <string-array name="band_1_3">
+        <item>Black</item>
+        <item>Brown</item>
+        <item>Red</item>
+        <item>Orange</item>
+        <item>Yellow</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Violet</item>
+        <item>Gray</item>
+        <item>White</item>
+    </string-array>
+</resources>
